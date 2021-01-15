@@ -5,7 +5,7 @@ const Product = require("./models/product");
 
 mongoose
   .connect(
-    "mongodb+srv://cris05:DfzcZmCQ2qGIREI6@cluster0.1wlk1.mongodb.net/belalunaDB?retryWrites=true&w=majority",
+    "[]",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
